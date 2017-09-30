@@ -17,14 +17,14 @@ Multiple outputs were chosen to provide better analysis of the different factors
 
 Required questions:
 1. On a per-state basis provide a breakdown of the percentage of residences that were rented vs.
-owned.
+owned. 
 2. On a per-state basis what percentage of the population never married? Report this for both
 males and females. Note: The US Census data tracks this information for persons with ages 15
 years and over.
 3. On a per-state basis, analyze the age distribution based on gender.
-    a.Percentage of people below 18 years (inclusive) old.
-    b.Percentage of people between 19 (inclusive) and 29 (inclusive) years old.
-    c. Percentage of people between 30 (inclusive) and 39 (inclusive) years old.
+    1. Percentage of people below 18 years (inclusive) old.
+    2. Percentage of people between 19 (inclusive) and 29 (inclusive) years old.
+    3. Percentage of people between 30 (inclusive) and 39 (inclusive) years old.
 4. On a per-state basis, analyze the distribution of rural households vs. urban households.
 5. On a per-state basis, what is the median value of the house that occupied by owners?
 6. On a per-state basis, what is median rent paid by households?
