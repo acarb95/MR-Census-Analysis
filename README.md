@@ -1,17 +1,18 @@
 File descriptions:
-    AllQMapper.java - the mapper that reads in the data and produces key value pairs based on the question and the required output for that question
-    AllQCombiner.java - aids in speeding up the adding of the values for each question
-    AllQReducer.java - outputs the final values for questions Q1-Q6 and intermediate values for Q7 and Q8
-    Q7MapperPart2.java & Q7ReducerPart2.java - sorts the average number of rooms per house and then provides the 95th percentile.
-    Q8MapperPart2.java & Q8ReducerPart2.java - sorts all the percentages of elderly by taking advantage of the inhouse sorting of mapreduce and outputs the state with the most elderly population.
-    AllQRunner.java - Runs the three jobs in the exact order (also contains code that could do jobs 2 & 3 if only one map reduce job was wanted and using outside java programs was allowed)
-    ValueWritable.java - A custom writable that contains up to four values to be used by all the questions
+* AllQMapper.java - the mapper that reads in the data and produces key value pairs based on the question and the required output for that question
+* AllQCombiner.java - aids in speeding up the adding of the values for each question
+* AllQReducer.java - outputs the final values for questions Q1-Q6 and intermediate values for Q7 and Q8
+* Q7MapperPart2.java & Q7ReducerPart2.java - sorts the average number of rooms per house and then provides the 95th percentile.
+* Q8MapperPart2.java & Q8ReducerPart2.java - sorts all the percentages of elderly by taking advantage of the inhouse sorting of mapreduce and outputs the state with the most elderly population.
+* AllQRunner.java - Runs the three jobs in the exact order (also contains code that could do jobs 2 & 3 if only one map reduce job was wanted and using outside java programs was allowed)
+* ValueWritable.java - A custom writable that contains up to four values to be used by all the questions
 
 The program outputs in the following format:
-
-    <Question_number>/<Question_number>-r-00000
-    Q7Result/part-r-00000
-    Q8Result/part-r-00000
+```
+<Question_number>/<Question_number>-r-00000
+Q7Result/part-r-00000
+Q8Result/part-r-00000
+```
 
 Multiple outputs were chosen to provide better analysis of the different factors as well as easier integration into the google maps frameworks (still needs to be done)
 
