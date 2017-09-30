@@ -1,4 +1,4 @@
-##File descriptions
+## File descriptions
 * AllQMapper.java - the mapper that reads in the data and produces key value pairs based on the question and the required output for that question
 * AllQCombiner.java - aids in speeding up the adding of the values for each question
 * AllQReducer.java - outputs the final values for questions Q1-Q6 and intermediate values for Q7 and Q8
@@ -16,7 +16,7 @@ Q8Result/part-r-00000
 
 Multiple outputs were chosen to provide better analysis of the different factors as well as easier integration into the google maps frameworks (still needs to be done)
 
-##Required questions
+## Required questions
 1. On a per-state basis provide a breakdown of the percentage of residences that were rented vs.
 owned. 
 2. On a per-state basis what percentage of the population never married? Report this for both
